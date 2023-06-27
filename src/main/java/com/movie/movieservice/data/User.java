@@ -1,4 +1,4 @@
-package com.movie.movieservice.datta;
+package com.movie.movieservice.data;
 
 import jakarta.persistence.*;
 import lombok.Data;
