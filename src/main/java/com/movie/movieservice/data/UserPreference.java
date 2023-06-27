@@ -22,6 +22,9 @@ public class UserPreference {
     @Column(name = "uuid")
     private String uuid;
 
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "preference_id")
+    private Preference preference;
 
 
 }
