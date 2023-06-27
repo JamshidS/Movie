@@ -1,2 +1,4 @@
-package com.movie.movieservice.service;public interface MovieService {
+package com.movie.movieservice.service;
+
+public interface MovieService {
 }
