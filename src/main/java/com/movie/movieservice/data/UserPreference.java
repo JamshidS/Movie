@@ -26,5 +26,8 @@ public class UserPreference {
     @JoinColumn(name = "preference_id")
     private Preference preference;
 
+    @Column(name = "preference_value")
+    private String preferenceValue;
+
 
 }
