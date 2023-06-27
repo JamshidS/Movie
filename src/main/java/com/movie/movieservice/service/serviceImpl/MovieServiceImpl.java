@@ -6,7 +6,6 @@ import com.movie.movieservice.dto.MovieDto;
 import com.movie.movieservice.repository.MovieCategoryRepository;
 import com.movie.movieservice.repository.MovieRepository;
 import com.movie.movieservice.service.MovieService;
-import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
