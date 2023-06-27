@@ -41,6 +41,8 @@ public class MovieServiceImpl implements MovieService {
 
     @Override
     public List<MovieResponse> getAllMovies() {
+        List<MovieResponse> movieResponses = new ArrayList<>();
+        List<Movie> movies = repository.findAll();
         return null;
     }
 
